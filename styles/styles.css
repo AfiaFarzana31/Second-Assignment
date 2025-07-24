@@ -221,3 +221,28 @@
 .plants-lover-section-description li{
     margin: 1rem 0;
 }
+
+/*latest-deals-section*/
+.latest-deals-section{
+    width: 90rem;
+    height: 8.6rem; 
+    text-align: center;
+    line-height: 1;   
+    margin-bottom: 7rem;
+    gap: 0;
+
+}
+.latest-deals-section-title{
+    font-weight: bold;
+    font-size: 3.125rem;
+    margin-top: 0;
+}
+.latest-deals-section-description{
+    color: #000000;
+    opacity: 50%;
+    font-size: 1.4rem;
+    font-weight: normal;
+    text-align: center;
+    margin: 0;
+   
+}
