@@ -287,7 +287,7 @@
   height: 12.3rem;
   justify-content: center;
 }
-.zabo {
+.zabo{
   background-image: url('/assets/deal-zabo.png');
   grid-row: span 2;   
   max-width: 47.1rem;          
@@ -441,3 +441,42 @@
 .footer-social img:hover {
   transform: scale(1.1);
 }
+
+
+/* Mobile responsive */
+@media screen and (max-width: 576px){   
+    .nav{
+        margin: 0 auto;
+    }
+    .nav .logo{
+        margin-left:1rem ;
+    }
+    .nav .link-icon .home-link , .shop-link{
+        display: none;
+    }
+    .nav .link-icon .cart-area{
+        margin-right:7rem;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        margin: 20rem auto;
+        margin-bottom: 7rem;
+    }
+    .banner-content{
+        margin: 0 1rem;
+    }
+    .banner-title{
+        font-size: 3rem;
+    }
+    
+
+      .plants-container {
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       grid-template-rows: repeat(4, 1fr);
+       gap: 1rem;
+       row-gap: 2.2rem;
+}
+    
+}
+    
