@@ -272,30 +272,42 @@
   
 }
 .deals-card a{
-    color: ;
+    color: #FFFFFF;
 }
 .bloom {
   background-image: url('/assets/deal-bloom.png');
   max-width: 22.94rem;          
   height: 12.6rem;
+  justify-content: center;
 }
 
 .ana {
   background-image: url('/assets/deal-ana.png');
   max-width: 22.94rem;          
   height: 12.3rem;
+  justify-content: center;
 }
 .zabo {
   background-image: url('/assets/deal-zabo.png');
   grid-row: span 2;   
   max-width: 47.1rem;          
   height: 26.5rem;
+  justify-content: center;
   
+}
+.zabo h3{
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.zabo a{
+  font-weight: 500;
+  font-size: 1.75rem;
 }
 .card-title{
   font-weight: bold;
   font-size: 1.5rem;
   text-align: center;
+  margin-bottom: 0.5rem;
 }
 .card-link a{
    font-size: 1rem;
