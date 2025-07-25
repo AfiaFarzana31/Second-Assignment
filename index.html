@@ -144,6 +144,14 @@
                 <a href="" class="card-link inter-font">Shop Now</a>
                </div>
              </section>
+             <script>
+                const buttons = document.querySelectorAll('.button-primary');
+                buttons.forEach(button => {
+                button.addEventListener('click', () => {
+                alert('Flower Added to Cart');
+                });
+                });
+            </script>
         </section>
 
         <section class="joint-section">

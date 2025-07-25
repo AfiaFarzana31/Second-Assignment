@@ -201,6 +201,14 @@
     margin-left: -12rem;
     margin-top: -8rem;
 }
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.badge {
+  animation: spin 4s linear infinite;
+}
 .plants-lover-section-content{
     width: 33.8rem;
     height: 32.6rem;
@@ -316,6 +324,7 @@
    color: #FFFFFF;
    text-align: center;
 }
+
 
 /* Joint section style*/
 .joint-section {
@@ -564,6 +573,16 @@
         height: 20rem;
       
     }
+    .zabo h3 {
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+    .zabo a{
+        font-size: 1rem;
+        font-weight: normal;
+    }
+
+    
     .joint-section{
         max-width: 36rem;
         width: 100%;
@@ -597,5 +616,6 @@
         margin:0 0.5rem;
     }   
 }
+    
     
     
